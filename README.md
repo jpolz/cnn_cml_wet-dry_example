@@ -1,5 +1,5 @@
+# Page in progress...
 # Rain event detection with CMLs and CNNs (an example) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jpolz/cnn_cml_wet-dry_example/master)
-
 
 Using 1D convolutional neural networks for rain event detection in commercial microwave link data is a concept described in (link to publication-coming soon). The purpose of this repository is to give a full description of the model setup using the Keras API with a Tensorflow back-end and a small example data set to illustrate our results.
 
@@ -7,9 +7,9 @@ Using 1D convolutional neural networks for rain event detection in commercial mi
 ## Table of Contents
 - [Model](#Model)
 - [Training](#Training)
-- [Example data](#Example data set)
+- [Data](#Example data set)
 - [Software](#Software)
-- [Further reading](#Further reading)
+- [Further-reading](#Further reading)
   - [Publications](#Publications)
   - [Projects](#Projects)
 
@@ -17,9 +17,10 @@ Using 1D convolutional neural networks for rain event detection in commercial mi
 ## Model
 
 ![alt text](https://raw.githubusercontent.com/jpolz/cnn_cml_wet-dry_example/master/model_arch_v2.png "1D-CNN architecture")
+Conceptual description of the model. Input(left) is passed through the model layers and leads to a prediction in the output(right). The python implementation of the model is shown in [this notebook](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/CNN_for_CML_example_nb.ipynb). More details soon...
 
 ## Training
-
+More details soon...
 
 
 ## Example data set
@@ -34,7 +35,7 @@ The full python programming environment needed to set up the analysis can be ins
 
 ## Further reading
 
-### Papers
+### Publications
 * [Real-time CML data acquisition](https://www.atmos-meas-tech.net/9/991/2016/amt-9-991-2016-discussion.html)
 * [Analysis of one year of data (in review)](https://www.hydrol-earth-syst-sci-discuss.net/hess-2019-423/)
 * [Hydrological application of CML derived rainfall maps in alpine regions](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/38395/file/0107.pdf)
