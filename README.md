@@ -4,19 +4,8 @@
 Using 1D convolutional neural networks for rain event detection in commercial microwave link data is a concept described in (link to publication-coming soon). The purpose of this repository is to give a full description of the model setup using the Keras API with a Tensorflow back-end and a small example data set to illustrate our results.
 
 
-## Table of Contents
-- [Model](#Model)
-- [Training](#Training)
-- [Data](#Example data set)
-- [Software](#Software)
-- [Further-reading](#Further reading)
-  - [Publications](#Publications)
-  - [Projects](#Projects)
-
-
 ## Model
 
-![alt text](https://raw.githubusercontent.com/jpolz/cnn_cml_wet-dry_example/master/model_arch_v2.png "1D-CNN architecture")
 Conceptual description of the model. Input(left) is passed through the model layers and leads to a prediction in the output(right). The python implementation of the model is shown in [this notebook](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/CNN_for_CML_example_nb.ipynb). More details soon...
 
 ## Training
@@ -24,14 +13,14 @@ More details soon...
 
 
 ## Example data set
-Since it the full data set, that was used in (link to publication-coming soon) is not publicly available in its full extent, we provide a small [example data set](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/paper_example_40cmls_raw.h5). It contains raw data from 40 CMLs with modified CML locations. The time series contains two weeks in September 2018. The pre-processing of the raw data, the classification through the CNN and a comparison to a reference method is contained in [this notebook](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/CNN_for_CML_example_nb.ipynb).
-
+Since the full data set, that was used in (link to publication-coming soon) is not publicly available in its full extent, we provide a small [example data set](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/paper_example_40cmls_raw.h5). It contains raw data from 40 CMLs with modified CML locations. The time series contains two weeks in September 2018. The pre-processing of the raw data, the classification through the CNN and a comparison to a reference method is contained in [this notebook](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/CNN_for_CML_example_nb.ipynb).
 
 
 ## Software
 The full python programming environment needed to set up the analysis can be installed from the  [environment.yml](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/environment.yml) file. The most important toolboxes we used are:
 * [Keras](https://github.com/keras-team/keras)
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
+
 
 ## Further reading
 
@@ -45,8 +34,13 @@ The full python programming environment needed to set up the analysis can be ins
   * 2
   * 3
 
-### Projects
-* [DFG-RealPEP](https://www2.meteo.uni-bonn.de/realpep/doku.php)
-* [DFG-IMAP](https://www.imk-ifu.kit.edu/projects_2209.php)
-* [HGF-Digital Earth](https://www.digitalearth-hgf.de/de)
-* [BMBF-HoWa innovativ](https://www.howa-innovativ.sachsen.de/index.html)
+  ### Projects
+  * [DFG-RealPEP](https://www2.meteo.uni-bonn.de/realpep/doku.php)
+  * [DFG-IMAP](https://www.imk-ifu.kit.edu/projects_2209.php)
+  * [HGF-Digital Earth](https://www.digitalearth-hgf.de/de)
+  * [BMBF-HoWa innovativ](https://www.howa-innovativ.sachsen.de/index.html)
+
+  ### People
+  * [Julius Polz](https://github.com/jpolz)
+  * [Max Graf](https://github.com/maxmargraf)
+  * [Christian Chwala](https://github.com/cchwala)
