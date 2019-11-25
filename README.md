@@ -1,7 +1,11 @@
 # Page in progress...
 # Rain event detection with CMLs and CNNs (an example) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jpolz/cnn_cml_wet-dry_example/master)
 
-Using 1D convolutional neural networks for rain event detection in commercial microwave link data is a concept described in (link to publication-coming soon). The purpose of this repository is to give a full description of the model setup using the Keras API with a Tensorflow back-end and a small example data set to illustrate our results.
+
+![alt text](https://raw.githubusercontent.com/jpolz/cnn_cml_wet-dry_example/master/cml_banner.png "A typical CML antenna")
+
+
+Using 1D convolutional neural networks for rain event detection in commercial microwave link (CML) data is a concept described in (link to publication-coming soon). The purpose of this repository is to give a full description of the model setup using the Keras API with a Tensorflow back-end and a small example data set to illustrate our results. CMLs can be used to derive rainfall information by exploiting the close to linear relationship between the attenuation caused by rainfall and the path averaged rain rate along the link path.
 
 
 ## Model
@@ -9,7 +13,7 @@ Using 1D convolutional neural networks for rain event detection in commercial mi
 The python implementation of the model is shown in [this notebook](https://github.com/jpolz/cnn_cml_wet-dry_example/blob/master/CNN_for_CML_example_nb.ipynb). More details soon...
 
 ## Training
-More details soon...
+We train our model using 4 months of data from 400 randomly chosen CMLs distributed over entire Germany. Afterwards the model is validated using different months of data from all 3904 available CMLs. The number of samples is 70,000 for training and more than $ 4x10^{6} $ for validation.
 
 
 ## Example data set
@@ -30,7 +34,6 @@ The full python programming environment needed to set up the analysis can be ins
 * [Hydrological application of CML derived rainfall maps in alpine regions](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/38395/file/0107.pdf)
 * Rain event detection methods
   * Rain event detection with CMLs and CNNs (soon)
-  * 1
   * 2
   * 3
 
