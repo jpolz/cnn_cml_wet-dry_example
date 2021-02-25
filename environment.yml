@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - h5py
+  - h5py==2.10.0
   - jupyterlab
   - keras=2.3.1
   - keras-applications
